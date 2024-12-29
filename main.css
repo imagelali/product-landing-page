@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    header {
+      margin-top:115px;
+      width:100%;
+      display:flex;
+      flex-direction:row;
+      align-items:right;
+      padding:0 25px;
+    }
+   header .img-thumbnail {
+      float:center;
+    }
+    header, .text {
+      text-align:center;
+    }
+    header #nav-bar {
+      float:left;
+    }
+}
